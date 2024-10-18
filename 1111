@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>运动会报名</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            margin: 20px 0;
+        }
+        .signup-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .signup-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>欢迎参加运动会！</h1>
+    <p>请查看我们的宣传图片，并点击下方按钮进行报名。</p>
+
+    <!-- 第一张宣传图片 -->
+    <img src="https://drive.google.com/uc?export=view&id=1oOujs2XRdAvYdn3Qxu8rnmM36k2gmDB_" alt="宣传图片1">
+
+    <!-- 第二张宣传图片 -->
+    <img src="https://drive.google.com/uc?export=view&id=1hZkuwPw-z8p94WVnIQqslRPhE_nApO-I" alt="宣传图片2">
+
+    <!-- 报名按钮 -->
+    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=aiFm1EPGSkOcLgV0SMF8vlph6aeSzZNJjMJSEpNjJ4ZUQ1dTSTNMSjExSVRUU0lLQ1VPSEVIT1IwVy4u&origin=QRCode" class="signup-button" target="_blank">点击报名</a>
+
+</body>
+</html>
